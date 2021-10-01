@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dynamic_Font" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ma9-at-EOx">
+                                <rect key="frame" x="20" y="186.66666666666669" width="388" height="552.66666666666652"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cert_BG.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="7eP-Uz-2tq">
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="552.66666666666663"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="7eP-Uz-2tq" secondAttribute="height" multiplier="1009:1438" id="cpe-BC-szK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공인인증서" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="v8N-Zi-8br">
+                                        <rect key="frame" x="129" y="0.0" width="130" height="193.33333333333334"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이세진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="5ld-JM-tPu">
+                                        <rect key="frame" x="142" y="0.0" width="104" height="398"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="발급자 : 세진컴퍼니" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="kpS-Xd-skD">
+                                        <rect key="frame" x="117" y="0.0" width="154" height="525.33333333333337"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="종 류 : 은행" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EhY-nM-E2u">
+                                        <rect key="frame" x="117" y="0.0" width="89" height="580.33333333333337"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="만료일 : 2021. 10. 01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hmY-qn-KIL">
+                                        <rect key="frame" x="117" y="0.0" width="170" height="635.66666666666663"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="kpS-Xd-skD" firstAttribute="width" secondItem="7eP-Uz-2tq" secondAttribute="width" multiplier="0.396907" id="4E2-Ux-nyP"/>
+                                    <constraint firstItem="EhY-nM-E2u" firstAttribute="bottom" secondItem="7eP-Uz-2tq" secondAttribute="bottom" multiplier="1.05" id="72f-gP-6mG"/>
+                                    <constraint firstItem="kpS-Xd-skD" firstAttribute="centerX" secondItem="7eP-Uz-2tq" secondAttribute="centerX" id="8gI-Xl-xvq"/>
+                                    <constraint firstItem="5ld-JM-tPu" firstAttribute="top" secondItem="7eP-Uz-2tq" secondAttribute="top" id="B3o-io-Zph"/>
+                                    <constraint firstItem="v8N-Zi-8br" firstAttribute="bottom" secondItem="7eP-Uz-2tq" secondAttribute="bottom" multiplier="0.35" id="EKw-eP-fl9"/>
+                                    <constraint firstItem="5ld-JM-tPu" firstAttribute="bottom" secondItem="7eP-Uz-2tq" secondAttribute="bottom" multiplier="0.72" id="Efn-ss-363"/>
+                                    <constraint firstAttribute="bottom" secondItem="7eP-Uz-2tq" secondAttribute="bottom" id="Eyg-MN-7Vw"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EhY-nM-E2u" secondAttribute="trailing" constant="20" symbolic="YES" id="FvZ-wO-OH6"/>
+                                    <constraint firstItem="7eP-Uz-2tq" firstAttribute="leading" secondItem="ma9-at-EOx" secondAttribute="leading" id="GVJ-7e-FPF"/>
+                                    <constraint firstItem="5ld-JM-tPu" firstAttribute="centerX" secondItem="7eP-Uz-2tq" secondAttribute="centerX" id="Hsi-SS-Ky9"/>
+                                    <constraint firstItem="v8N-Zi-8br" firstAttribute="centerX" secondItem="7eP-Uz-2tq" secondAttribute="centerX" id="Jee-qn-0mP"/>
+                                    <constraint firstItem="hmY-qn-KIL" firstAttribute="leading" secondItem="EhY-nM-E2u" secondAttribute="leading" id="OlX-U9-Zld"/>
+                                    <constraint firstItem="hmY-qn-KIL" firstAttribute="top" secondItem="7eP-Uz-2tq" secondAttribute="top" id="UwB-Wu-fVu"/>
+                                    <constraint firstItem="EhY-nM-E2u" firstAttribute="leading" secondItem="kpS-Xd-skD" secondAttribute="leading" id="WDX-0Z-a4X"/>
+                                    <constraint firstItem="kpS-Xd-skD" firstAttribute="top" secondItem="7eP-Uz-2tq" secondAttribute="top" id="ZMD-WH-jSE"/>
+                                    <constraint firstAttribute="trailing" secondItem="7eP-Uz-2tq" secondAttribute="trailing" id="ZV2-Ux-t6x"/>
+                                    <constraint firstItem="5ld-JM-tPu" firstAttribute="width" secondItem="7eP-Uz-2tq" secondAttribute="width" multiplier="0.268041" id="ats-vz-BgA"/>
+                                    <constraint firstItem="EhY-nM-E2u" firstAttribute="width" secondItem="7eP-Uz-2tq" secondAttribute="width" multiplier="0.229381" id="azk-rA-gvZ"/>
+                                    <constraint firstItem="hmY-qn-KIL" firstAttribute="width" secondItem="7eP-Uz-2tq" secondAttribute="width" multiplier="0.438144" id="cUP-FE-nou"/>
+                                    <constraint firstItem="EhY-nM-E2u" firstAttribute="top" secondItem="7eP-Uz-2tq" secondAttribute="top" id="dwf-FF-Pin"/>
+                                    <constraint firstItem="v8N-Zi-8br" firstAttribute="width" secondItem="7eP-Uz-2tq" secondAttribute="width" multiplier="0.335052" id="ia1-ED-xLd"/>
+                                    <constraint firstItem="v8N-Zi-8br" firstAttribute="top" secondItem="7eP-Uz-2tq" secondAttribute="top" id="iki-kd-eGN"/>
+                                    <constraint firstItem="hmY-qn-KIL" firstAttribute="bottom" secondItem="7eP-Uz-2tq" secondAttribute="bottom" multiplier="1.15" id="oKC-JH-Qhn"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hmY-qn-KIL" secondAttribute="trailing" constant="20" symbolic="YES" id="rU8-Mb-E9g"/>
+                                    <constraint firstItem="kpS-Xd-skD" firstAttribute="bottom" secondItem="7eP-Uz-2tq" secondAttribute="bottom" multiplier="0.95" id="uhq-SA-Snp"/>
+                                    <constraint firstItem="7eP-Uz-2tq" firstAttribute="top" secondItem="ma9-at-EOx" secondAttribute="top" id="v6h-FQ-efM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ma9-at-EOx" secondAttribute="trailing" constant="20" id="Uzg-iz-90R"/>
+                            <constraint firstItem="ma9-at-EOx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eJb-6U-ZzV"/>
+                            <constraint firstItem="ma9-at-EOx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kJX-Yg-0ak"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.77570093457942" y="95.896328293736502"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cert_BG.PNG" width="1009" height="1438"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
