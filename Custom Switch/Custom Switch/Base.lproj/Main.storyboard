@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Custom_Switch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TaB-ab-UAd">
+                                <rect key="frame" x="107" y="423" width="200" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvU-c2-M5W">
+                                        <rect key="frame" x="75" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" red="0.55006242709999997" green="0.80410058890000002" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="GEm-Tl-EiY"/>
+                                            <constraint firstAttribute="height" constant="50" id="Mum-5T-fmS"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="selectedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DKa-il-bdb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="PbA-e3-ioN"/>
+                                    <constraint firstAttribute="height" constant="50" id="UWc-m5-Olv"/>
+                                    <constraint firstItem="EvU-c2-M5W" firstAttribute="centerY" secondItem="TaB-ab-UAd" secondAttribute="centerY" id="V4t-m1-yKE"/>
+                                    <constraint firstItem="EvU-c2-M5W" firstAttribute="centerX" secondItem="TaB-ab-UAd" secondAttribute="centerX" id="rKM-yW-70e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TaB-ab-UAd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="23z-I8-irb"/>
+                            <constraint firstItem="TaB-ab-UAd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Hcg-j5-hzp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonCenterX" destination="rKM-yW-70e" id="mRV-EE-uJh"/>
+                        <outlet property="switchBG" destination="TaB-ab-UAd" id="QrF-e2-zNu"/>
+                        <outlet property="switchBtn" destination="EvU-c2-M5W" id="7ut-Wn-45B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
